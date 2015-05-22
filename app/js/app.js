@@ -4,7 +4,8 @@
 
 var infinityApp = angular.module('infinityApp', [
   'ngRoute',
-  'infinityControllers'
+  'infinityControllers',
+  'infinityServices'
 ]);
 
 infinityApp.config(['$routeProvider',

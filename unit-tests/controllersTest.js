@@ -15,7 +15,6 @@ describe('infinityControllers', function() {
 
 
     it('should have injected members now', function() {
-        //spec body
     	expect(scope).toBeDefined();
     	expect(controller).toBeDefined();
       });

@@ -1,16 +1,77 @@
 <div class="container-fluid">
+  
   <div class="row">
+    
+    <!-- Left Container -->
     <div class="col-md-2">
-      <!--Sidebar content-->
+      
+      <div class="row">
+      
+      <!-- Click area -->
+        <div class="col-md-12">
+          Click area
+        </div>
+      
+      </div>
+      
+      <div class="row">
 
-      sidebar content
-
+      <!-- Stats area -->
+      	<div class="col-md-12">
+      	  Stats area
+      	</div>
+      
+      </div>
+      
     </div>
-    <div class="col-md-10">
-      <!--Body content-->
-
-      main content
-
+    
+    <!-- Central container -->
+    <div class="col-md-8">
+      
+      <div class="row">
+      
+      	<!-- Main area -->
+      	<div class="col-md-12">
+      	  Main area      	
+      	</div>      	      	
+      
+      </div>
+      
+      <div class="row">
+      
+        <!-- Console area -->
+        <div class="col-md-12">
+          Console area
+        </div>
+      
+      </div>
+            
+    </div>
+    
+    <!-- Right container -->
+    <div class="col-md-2">
+    
+      <div class="row">
+      
+        <!-- Menu area -->
+        <div class="col-md-12">
+          Menu area
+        </div>
+        
+      </div>
+      
+      <!-- Shop area -->
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="upgrades">
+  		    <li ng-repeat="upgrade in upgrades">
+  		      <p>{{upgrade.name}}</p>
+		      <!-- <img ng-src="{{img}}" ng-click="setImage(img)"> -->
+		    </li>
+		  </ul>
+        </div>
+      </div>
     </div>
   </div>
+  
 </div>

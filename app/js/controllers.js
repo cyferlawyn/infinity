@@ -4,6 +4,6 @@
 
 var infinityControllers = angular.module('infinityControllers', []);
 
-infinityControllers.controller('mainpageCtrl',
-  function($scope) {
-  });
+infinityControllers.controller('mainpageCtrl', ['$scope', 'Upgrades', function($scope, Upgrades) {
+	$scope.upgrades = Upgrades.query();
+}]);
