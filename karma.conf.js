@@ -9,8 +9,8 @@ module.exports = function(config){
       'app/bower_components/angular-mocks/angular-mocks.js',
       'app/bower_components/angular-resource/angular-resource.js',
       'app/bower_components/angular-animate/angular-animate.js',
-      'app/components/**/*.js',
-      'app/view*/**/*.js'
+      'app/js/**/*.js',
+      'unit-tests/**/*.js'
     ],
 
     autoWatch : true,
