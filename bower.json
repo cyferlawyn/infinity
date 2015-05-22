@@ -1,15 +1,18 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "project-infinity",
+  "description": "Description Placeholder",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/cyferlawyn/infinity",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "angular": "1.2.x",
-    "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "angular": "1.x.x",
+    "angular-route": "1.x.x",
+    "angular-loader": "1.x.x",
+    "angular-mocks": "1.x.x",
+    "angular-resource": "1.x.x",
+    "angular-animate": "1.x.x",
+    "jquery": "2.x.x",
+    "bootstrap": "x.x.x"    
   }
 }
